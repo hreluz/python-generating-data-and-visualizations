@@ -10,7 +10,9 @@ fig, ax = plt.subplots()
 # Scatter with color
 # ax.scatter(x_values, y_values, c='red', s=10)
 # Scatter with RGB color
-ax.scatter(x_values, y_values, c=(0, 0.8, 0), s=10)
+# ax.scatter(x_values, y_values, c=(0, 0.8, 0), s=10)
+# Scatter with colormap
+ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, s=10)
 
 # Set chart title and label axes
 ax.set_title("Square Numbers", fontsize=24)
