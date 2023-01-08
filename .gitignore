@@ -1,3 +1,4 @@
 .env
 .idea
 1.generating-data/squares_plot.png
+__pycache__
